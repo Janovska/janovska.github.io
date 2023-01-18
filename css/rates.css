@@ -1,0 +1,47 @@
+table, th, td {
+    border-bottom: 2px solid #505168;
+    border-collapse: collapse;
+}
+
+table {
+    overflow: scroll;
+}
+
+table caption {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+th {
+    font-weight: 400;
+}
+
+th, td {
+    background-color: #353545;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#container-data {
+    margin: 5rem auto;
+    width: 55%;
+}
+
+.detail-btn {
+    border-radius: 5px;
+    color: #33ac78;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.detail-btn:hover {
+    color: white;
+    background-color: #33ac78;
+    transition: 0.3s;
+}
+
+.wrapper {
+    min-height: 100vh;
+}

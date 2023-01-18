@@ -1,0 +1,42 @@
+table {
+    overflow: scroll;
+}
+
+table caption {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+table, th, td {
+    border-bottom: 2px solid #505168;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 400;
+}
+
+th, td {
+    background-color: #353545;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#non-cash-rates {
+    margin: 5rem auto;
+    width: 55%;
+}
+
+i.fa-arrow-trend-up {
+    color: limegreen;
+}
+
+i.fa-arrow-trend-down {
+    color: #fc6665;
+}
+
+.wrapper {
+    min-height: 100vh;
+}

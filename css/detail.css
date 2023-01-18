@@ -1,0 +1,88 @@
+table {
+    width: 100%;
+    overflow: scroll;
+}
+
+table, th, td {
+    border-bottom: 2px solid #505168;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 600;
+}
+
+th, td {
+    background-color: #353545;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.detail-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.back-btn {
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+
+.back-btn a {
+    border: 1px solid black;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.back-btn a:hover {
+    text-decoration: none;
+    background-color: #353545;
+    transition: 0.3s;
+}
+
+.back-btn a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#heading {
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+}
+
+.detail-card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.detail-card-info p {
+    padding-bottom: .5rem;
+}
+
+.detail-card-cash {
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+#heading-cash {
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+
+#heading-non-cash {
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+
+#country-info span {
+    font-weight: 600;
+}

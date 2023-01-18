@@ -1,0 +1,43 @@
+#about-container {
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    color: white;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    margin: 2rem 0 1.2rem 0;
+    text-decoration: underline;
+    text-decoration-color: #23232c;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+}
+
+ol {
+    margin: 1rem 0 1rem 2.5rem;
+}
+
+img {
+    padding: 2rem 0;
+    opacity: 0.7;
+    filter: grayscale(0.5);
+}
+
+blockquote {
+    text-align: center;
+}
+
+blockquote a {
+    text-decoration: none;
+    color: #202028;
+    border-left: 2px solid #202028;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+blockquote a:hover {
+    color: black;
+    transition: 0.3s;
+}
